@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D750DEE51ED63892001026C7 /* ConwayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D750DEE41ED63892001026C7 /* ConwayViewController.swift */; };
+		D750DEEF1ED66A05001026C7 /* baldwin_trump.png in Resources */ = {isa = PBXBuildFile; fileRef = D750DEEE1ED66A05001026C7 /* baldwin_trump.png */; };
+		D750DEF11ED66C00001026C7 /* sean_spicer.png in Resources */ = {isa = PBXBuildFile; fileRef = D750DEF01ED66C00001026C7 /* sean_spicer.png */; };
+		D750DEF51ED66DC7001026C7 /* trump.png in Resources */ = {isa = PBXBuildFile; fileRef = D750DEF41ED66DC7001026C7 /* trump.png */; };
+		D750DEF71ED67419001026C7 /* vertical_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = D750DEF61ED67419001026C7 /* vertical_flag.png */; };
+		D750DEF91ED756D7001026C7 /* conway1.png in Resources */ = {isa = PBXBuildFile; fileRef = D750DEF81ED756D7001026C7 /* conway1.png */; };
+		D750DF121EDC6FEB001026C7 /* conway_alternative_fact.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF111EDC6FEB001026C7 /* conway_alternative_fact.aiff */; };
+		D750DF171EDC6FF6001026C7 /* conway_do_you_think.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF131EDC6FF6001026C7 /* conway_do_you_think.aiff */; };
+		D750DF181EDC6FF6001026C7 /* conway_dont_you_say.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF141EDC6FF6001026C7 /* conway_dont_you_say.aiff */; };
+		D750DF191EDC6FF6001026C7 /* conway_flatout_false.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF151EDC6FF6001026C7 /* conway_flatout_false.aiff */; };
+		D750DF1A1EDC6FF6001026C7 /* conway_I_heard_you.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF161EDC6FF6001026C7 /* conway_I_heard_you.aiff */; };
+		D750DF1D1EDC6FFE001026C7 /* conway_overly_dramatic.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF1B1EDC6FFE001026C7 /* conway_overly_dramatic.aiff */; };
+		D750DF1E1EDC6FFE001026C7 /* conway_quantify.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D750DF1C1EDC6FFE001026C7 /* conway_quantify.aiff */; };
+		D75B91DA1E3479FC00F829BC /* wrong_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D75B91D91E3479FC00F829BC /* wrong_2.png */; };
+		D7780D131F7262B700F612B7 /* false_reporting.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF1F1EDCE127001026C7 /* false_reporting.aif */; };
+		D7780D141F7262C800F612B7 /* I_dont_know.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF201EDCE136001026C7 /* I_dont_know.aif */; };
+		D7780D151F7262C800F612B7 /* plain_wrong.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF211EDCE136001026C7 /* plain_wrong.aif */; };
+		D7780D161F7262C800F612B7 /* reckless.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF221EDCE136001026C7 /* reckless.aif */; };
+		D7780D171F7262C800F612B7 /* thats_cute.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF231EDCE136001026C7 /* thats_cute.aif */; };
+		D7780D181F7262C800F612B7 /* unbelievable.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF241EDCE136001026C7 /* unbelievable.aif */; };
+		D7780D191F7262C800F612B7 /* anythingfor_you.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF251EDCE142001026C7 /* anythingfor_you.aif */; };
+		D7780D1A1F7262C800F612B7 /* equal_opp.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF261EDCE142001026C7 /* equal_opp.aif */; };
+		D7780D1B1F7262C800F612B7 /* extreme_vetting.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF271EDCE142001026C7 /* extreme_vetting.aif */; };
+		D7780D1C1F7262C800F612B7 /* hold_on.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF281EDCE142001026C7 /* hold_on.aif */; };
+		D7780D1D1F7262D500F612B7 /* trump_grab_em.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2A1EEB6760001026C7 /* trump_grab_em.aif */; };
+		D7780D1E1F7262D500F612B7 /* trump_bigly.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2B1EEB677E001026C7 /* trump_bigly.aif */; };
+		D7780D1F1F7262D500F612B7 /* trump_china.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2C1EEB677E001026C7 /* trump_china.aif */; };
+		D7780D201F7262D500F612B7 /* trump_fake.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2D1EEB677E001026C7 /* trump_fake.aif */; };
+		D7780D211F7262D500F612B7 /* trump_great_wall.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2E1EEB677E001026C7 /* trump_great_wall.aif */; };
+		D7780D221F7262D500F612B7 /* trump_sniff.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF2F1EEB677E001026C7 /* trump_sniff.aif */; };
+		D7780D231F7262D500F612B7 /* trump_wrong.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF301EEB677E001026C7 /* trump_wrong.aif */; };
+		D7780D241F7262D500F612B7 /* trump_Im_really_smart.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF311EEB679A001026C7 /* trump_Im_really_smart.aif */; };
+		D7780D251F7262D500F612B7 /* trump_really_rich.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF321EEB679A001026C7 /* trump_really_rich.aif */; };
+		D7780D261F7262D500F612B7 /* trump_stupid.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF331EEB679A001026C7 /* trump_stupid.aif */; };
+		D7780D271F7262D500F612B7 /* trump_yuge.aif in Resources */ = {isa = PBXBuildFile; fileRef = D750DF341EEB679A001026C7 /* trump_yuge.aif */; };
+		D7780D2B1F72CBC300F612B7 /* mccarthy_spicer1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7780D2A1F72CBC300F612B7 /* mccarthy_spicer1.png */; };
+		D7780D2D1F72D36300F612B7 /* trump_nope.png in Resources */ = {isa = PBXBuildFile; fileRef = D7780D2C1F72D36300F612B7 /* trump_nope.png */; };
+		D79989191E315EC200877FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79989181E315EC200877FAC /* AppDelegate.swift */; };
+		D799891B1E315EC200877FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D799891A1E315EC200877FAC /* ViewController.swift */; };
+		D799891E1E315EC200877FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D799891C1E315EC200877FAC /* Main.storyboard */; };
+		D79989201E315EC200877FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D799891F1E315EC200877FAC /* Assets.xcassets */; };
+		D79989231E315EC200877FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79989211E315EC200877FAC /* LaunchScreen.storyboard */; };
+		D799894C1E31AF5A00877FAC /* China.aif in Resources */ = {isa = PBXBuildFile; fileRef = D799893C1E31AF5A00877FAC /* China.aif */; };
+		D799894D1E31AF5A00877FAC /* Crazy_Cookoo.aif in Resources */ = {isa = PBXBuildFile; fileRef = D799893D1E31AF5A00877FAC /* Crazy_Cookoo.aif */; };
+		D799894F1E31AF5A00877FAC /* Got_Ya_Loser.aif in Resources */ = {isa = PBXBuildFile; fileRef = D799893F1E31AF5A00877FAC /* Got_Ya_Loser.aif */; };
+		D79989511E31AF5A00877FAC /* Liar.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989411E31AF5A00877FAC /* Liar.aif */; };
+		D79989531E31AF5A00877FAC /* Next_Question.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989431E31AF5A00877FAC /* Next_Question.aif */; };
+		D79989561E31AF5A00877FAC /* Period_End_of_Story.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989461E31AF5A00877FAC /* Period_End_of_Story.aif */; };
+		D79989581E31AF5A00877FAC /* Shut_the_hell_up.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989481E31AF5A00877FAC /* Shut_the_hell_up.aif */; };
+		D79989591E31AF5A00877FAC /* Thats_Pretty_Funny.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989491E31AF5A00877FAC /* Thats_Pretty_Funny.aif */; };
+		D79989621E31E16800877FAC /* Wrong_.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989611E31E16800877FAC /* Wrong_.aif */; };
+		D79989641E31E17300877FAC /* Really_.aif in Resources */ = {isa = PBXBuildFile; fileRef = D79989631E31E17300877FAC /* Really_.aif */; };
+		D7D8A0051E31F98E00A307ED /* Trump_chicago.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D8A0041E31F98E00A307ED /* Trump_chicago.png */; };
+		D7D8A0071E321A1200A307ED /* trump_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D8A0061E321A1200A307ED /* trump_icon.png */; };
+		D7EDFC531ED4CD1700806F38 /* TrumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDFC521ED4CD1700806F38 /* TrumpViewController.swift */; };
+		D7EDFC551ED4DEEF00806F38 /* FakeTrumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDFC541ED4DEEF00806F38 /* FakeTrumpViewController.swift */; };
+		D7EDFC571ED4DF1B00806F38 /* SpicerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDFC561ED4DF1B00806F38 /* SpicerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D750DEE41ED63892001026C7 /* ConwayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConwayViewController.swift; sourceTree = "<group>"; };
+		D750DEEE1ED66A05001026C7 /* baldwin_trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baldwin_trump.png; sourceTree = "<group>"; };
+		D750DEF01ED66C00001026C7 /* sean_spicer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sean_spicer.png; sourceTree = "<group>"; };
+		D750DEF41ED66DC7001026C7 /* trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trump.png; sourceTree = "<group>"; };
+		D750DEF61ED67419001026C7 /* vertical_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_flag.png; sourceTree = "<group>"; };
+		D750DEF81ED756D7001026C7 /* conway1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conway1.png; sourceTree = "<group>"; };
+		D750DF111EDC6FEB001026C7 /* conway_alternative_fact.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_alternative_fact.aiff; sourceTree = "<group>"; };
+		D750DF131EDC6FF6001026C7 /* conway_do_you_think.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_do_you_think.aiff; sourceTree = "<group>"; };
+		D750DF141EDC6FF6001026C7 /* conway_dont_you_say.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_dont_you_say.aiff; sourceTree = "<group>"; };
+		D750DF151EDC6FF6001026C7 /* conway_flatout_false.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_flatout_false.aiff; sourceTree = "<group>"; };
+		D750DF161EDC6FF6001026C7 /* conway_I_heard_you.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_I_heard_you.aiff; sourceTree = "<group>"; };
+		D750DF1B1EDC6FFE001026C7 /* conway_overly_dramatic.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_overly_dramatic.aiff; sourceTree = "<group>"; };
+		D750DF1C1EDC6FFE001026C7 /* conway_quantify.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = conway_quantify.aiff; sourceTree = "<group>"; };
+		D750DF1F1EDCE127001026C7 /* false_reporting.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = false_reporting.aif; sourceTree = "<group>"; };
+		D750DF201EDCE136001026C7 /* I_dont_know.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = I_dont_know.aif; sourceTree = "<group>"; };
+		D750DF211EDCE136001026C7 /* plain_wrong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = plain_wrong.aif; sourceTree = "<group>"; };
+		D750DF221EDCE136001026C7 /* reckless.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = reckless.aif; sourceTree = "<group>"; };
+		D750DF231EDCE136001026C7 /* thats_cute.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = thats_cute.aif; sourceTree = "<group>"; };
+		D750DF241EDCE136001026C7 /* unbelievable.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = unbelievable.aif; sourceTree = "<group>"; };
+		D750DF251EDCE142001026C7 /* anythingfor_you.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = anythingfor_you.aif; sourceTree = "<group>"; };
+		D750DF261EDCE142001026C7 /* equal_opp.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = equal_opp.aif; sourceTree = "<group>"; };
+		D750DF271EDCE142001026C7 /* extreme_vetting.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = extreme_vetting.aif; sourceTree = "<group>"; };
+		D750DF281EDCE142001026C7 /* hold_on.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = hold_on.aif; sourceTree = "<group>"; };
+		D750DF2A1EEB6760001026C7 /* trump_grab_em.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_grab_em.aif; sourceTree = "<group>"; };
+		D750DF2B1EEB677E001026C7 /* trump_bigly.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_bigly.aif; sourceTree = "<group>"; };
+		D750DF2C1EEB677E001026C7 /* trump_china.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_china.aif; sourceTree = "<group>"; };
+		D750DF2D1EEB677E001026C7 /* trump_fake.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_fake.aif; sourceTree = "<group>"; };
+		D750DF2E1EEB677E001026C7 /* trump_great_wall.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_great_wall.aif; sourceTree = "<group>"; };
+		D750DF2F1EEB677E001026C7 /* trump_sniff.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_sniff.aif; sourceTree = "<group>"; };
+		D750DF301EEB677E001026C7 /* trump_wrong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_wrong.aif; sourceTree = "<group>"; };
+		D750DF311EEB679A001026C7 /* trump_Im_really_smart.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_Im_really_smart.aif; sourceTree = "<group>"; };
+		D750DF321EEB679A001026C7 /* trump_really_rich.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_really_rich.aif; sourceTree = "<group>"; };
+		D750DF331EEB679A001026C7 /* trump_stupid.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_stupid.aif; sourceTree = "<group>"; };
+		D750DF341EEB679A001026C7 /* trump_yuge.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump_yuge.aif; sourceTree = "<group>"; };
+		D75B91D91E3479FC00F829BC /* wrong_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong_2.png; sourceTree = "<group>"; };
+		D7780D2A1F72CBC300F612B7 /* mccarthy_spicer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mccarthy_spicer1.png; sourceTree = "<group>"; };
+		D7780D2C1F72D36300F612B7 /* trump_nope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trump_nope.png; sourceTree = "<group>"; };
+		D79989151E315EC200877FAC /* Trumplogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumplogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79989181E315EC200877FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D799891A1E315EC200877FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D799891D1E315EC200877FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D799891F1E315EC200877FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79989221E315EC200877FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D79989241E315EC200877FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D799893C1E31AF5A00877FAC /* China.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = China.aif; sourceTree = "<group>"; };
+		D799893D1E31AF5A00877FAC /* Crazy_Cookoo.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crazy_Cookoo.aif; sourceTree = "<group>"; };
+		D799893F1E31AF5A00877FAC /* Got_Ya_Loser.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Got_Ya_Loser.aif; sourceTree = "<group>"; };
+		D79989411E31AF5A00877FAC /* Liar.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Liar.aif; sourceTree = "<group>"; };
+		D79989431E31AF5A00877FAC /* Next_Question.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Next_Question.aif; sourceTree = "<group>"; };
+		D79989461E31AF5A00877FAC /* Period_End_of_Story.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Period_End_of_Story.aif; sourceTree = "<group>"; };
+		D79989481E31AF5A00877FAC /* Shut_the_hell_up.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shut_the_hell_up.aif; sourceTree = "<group>"; };
+		D79989491E31AF5A00877FAC /* Thats_Pretty_Funny.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thats_Pretty_Funny.aif; sourceTree = "<group>"; };
+		D79989611E31E16800877FAC /* Wrong_.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wrong_.aif; sourceTree = "<group>"; };
+		D79989631E31E17300877FAC /* Really_.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Really_.aif; sourceTree = "<group>"; };
+		D7D8A0041E31F98E00A307ED /* Trump_chicago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trump_chicago.png; sourceTree = "<group>"; };
+		D7D8A0061E321A1200A307ED /* trump_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trump_icon.png; sourceTree = "<group>"; };
+		D7EDFC521ED4CD1700806F38 /* TrumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrumpViewController.swift; sourceTree = "<group>"; };
+		D7EDFC541ED4DEEF00806F38 /* FakeTrumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeTrumpViewController.swift; sourceTree = "<group>"; };
+		D7EDFC561ED4DF1B00806F38 /* SpicerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpicerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79989121E315EC200877FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D750DEFA1EDC6F68001026C7 /* Baldwin */ = {
+			isa = PBXGroup;
+			children = (
+				D799893F1E31AF5A00877FAC /* Got_Ya_Loser.aif */,
+				D799893D1E31AF5A00877FAC /* Crazy_Cookoo.aif */,
+				D79989611E31E16800877FAC /* Wrong_.aif */,
+				D79989631E31E17300877FAC /* Really_.aif */,
+				D79989411E31AF5A00877FAC /* Liar.aif */,
+				D79989431E31AF5A00877FAC /* Next_Question.aif */,
+				D79989461E31AF5A00877FAC /* Period_End_of_Story.aif */,
+				D79989481E31AF5A00877FAC /* Shut_the_hell_up.aif */,
+				D79989491E31AF5A00877FAC /* Thats_Pretty_Funny.aif */,
+				D799893C1E31AF5A00877FAC /* China.aif */,
+			);
+			name = Baldwin;
+			sourceTree = "<group>";
+		};
+		D750DF351EEBEAE3001026C7 /* Spicer */ = {
+			isa = PBXGroup;
+			children = (
+				D750DF1F1EDCE127001026C7 /* false_reporting.aif */,
+				D750DF201EDCE136001026C7 /* I_dont_know.aif */,
+				D750DF211EDCE136001026C7 /* plain_wrong.aif */,
+				D750DF221EDCE136001026C7 /* reckless.aif */,
+				D750DF231EDCE136001026C7 /* thats_cute.aif */,
+				D750DF241EDCE136001026C7 /* unbelievable.aif */,
+				D750DF251EDCE142001026C7 /* anythingfor_you.aif */,
+				D750DF261EDCE142001026C7 /* equal_opp.aif */,
+				D750DF271EDCE142001026C7 /* extreme_vetting.aif */,
+				D750DF281EDCE142001026C7 /* hold_on.aif */,
+			);
+			name = Spicer;
+			sourceTree = "<group>";
+		};
+		D750DF361EEBEAF7001026C7 /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				D750DF301EEB677E001026C7 /* trump_wrong.aif */,
+				D750DF2C1EEB677E001026C7 /* trump_china.aif */,
+				D750DF2D1EEB677E001026C7 /* trump_fake.aif */,
+				D750DF2A1EEB6760001026C7 /* trump_grab_em.aif */,
+				D750DF2B1EEB677E001026C7 /* trump_bigly.aif */,
+				D750DF2E1EEB677E001026C7 /* trump_great_wall.aif */,
+				D750DF311EEB679A001026C7 /* trump_Im_really_smart.aif */,
+				D750DF321EEB679A001026C7 /* trump_really_rich.aif */,
+				D750DF331EEB679A001026C7 /* trump_stupid.aif */,
+				D750DF341EEB679A001026C7 /* trump_yuge.aif */,
+				D750DF2F1EEB677E001026C7 /* trump_sniff.aif */,
+			);
+			name = Trump;
+			sourceTree = "<group>";
+		};
+		D750DF371EEBEB01001026C7 /* Conway */ = {
+			isa = PBXGroup;
+			children = (
+				D750DF111EDC6FEB001026C7 /* conway_alternative_fact.aiff */,
+				D750DF1B1EDC6FFE001026C7 /* conway_overly_dramatic.aiff */,
+				D750DF1C1EDC6FFE001026C7 /* conway_quantify.aiff */,
+				D750DF131EDC6FF6001026C7 /* conway_do_you_think.aiff */,
+				D750DF141EDC6FF6001026C7 /* conway_dont_you_say.aiff */,
+				D750DF151EDC6FF6001026C7 /* conway_flatout_false.aiff */,
+				D750DF161EDC6FF6001026C7 /* conway_I_heard_you.aiff */,
+			);
+			name = Conway;
+			sourceTree = "<group>";
+		};
+		D799890C1E315EC200877FAC = {
+			isa = PBXGroup;
+			children = (
+				D79989171E315EC200877FAC /* Trumplogic */,
+				D79989161E315EC200877FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79989161E315EC200877FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79989151E315EC200877FAC /* Trumplogic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79989171E315EC200877FAC /* Trumplogic */ = {
+			isa = PBXGroup;
+			children = (
+				D79989181E315EC200877FAC /* AppDelegate.swift */,
+				D799891A1E315EC200877FAC /* ViewController.swift */,
+				D7EDFC541ED4DEEF00806F38 /* FakeTrumpViewController.swift */,
+				D7EDFC561ED4DF1B00806F38 /* SpicerViewController.swift */,
+				D7EDFC521ED4CD1700806F38 /* TrumpViewController.swift */,
+				D750DEE41ED63892001026C7 /* ConwayViewController.swift */,
+				D799891C1E315EC200877FAC /* Main.storyboard */,
+				D799891F1E315EC200877FAC /* Assets.xcassets */,
+				D79989211E315EC200877FAC /* LaunchScreen.storyboard */,
+				D79989241E315EC200877FAC /* Info.plist */,
+				D7FF338B1E329415003446CC /* Images */,
+				D799895C1E31C45000877FAC /* Sound Bites */,
+			);
+			name = Trumplogic;
+			path = Trumpinator;
+			sourceTree = "<group>";
+		};
+		D799895C1E31C45000877FAC /* Sound Bites */ = {
+			isa = PBXGroup;
+			children = (
+				D750DF371EEBEB01001026C7 /* Conway */,
+				D750DF361EEBEAF7001026C7 /* Trump */,
+				D750DF351EEBEAE3001026C7 /* Spicer */,
+				D750DEFA1EDC6F68001026C7 /* Baldwin */,
+			);
+			name = "Sound Bites";
+			sourceTree = "<group>";
+		};
+		D7FF338B1E329415003446CC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7780D2C1F72D36300F612B7 /* trump_nope.png */,
+				D7780D2A1F72CBC300F612B7 /* mccarthy_spicer1.png */,
+				D750DEF61ED67419001026C7 /* vertical_flag.png */,
+				D750DEF81ED756D7001026C7 /* conway1.png */,
+				D750DEF41ED66DC7001026C7 /* trump.png */,
+				D750DEEE1ED66A05001026C7 /* baldwin_trump.png */,
+				D750DEF01ED66C00001026C7 /* sean_spicer.png */,
+				D75B91D91E3479FC00F829BC /* wrong_2.png */,
+				D7D8A0041E31F98E00A307ED /* Trump_chicago.png */,
+				D7D8A0061E321A1200A307ED /* trump_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79989141E315EC200877FAC /* Trumplogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79989271E315EC200877FAC /* Build configuration list for PBXNativeTarget "Trumplogic" */;
+			buildPhases = (
+				D79989111E315EC200877FAC /* Sources */,
+				D79989121E315EC200877FAC /* Frameworks */,
+				D79989131E315EC200877FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trumplogic;
+			productName = Trumpinator;
+			productReference = D79989151E315EC200877FAC /* Trumplogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D799890D1E315EC200877FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = d9vil;
+				TargetAttributes = {
+					D79989141E315EC200877FAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YX9RXX3EJ4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D79989101E315EC200877FAC /* Build configuration list for PBXProject "Trumplogic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D799890C1E315EC200877FAC;
+			productRefGroup = D79989161E315EC200877FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79989141E315EC200877FAC /* Trumplogic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79989131E315EC200877FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7780D1D1F7262D500F612B7 /* trump_grab_em.aif in Resources */,
+				D7780D1E1F7262D500F612B7 /* trump_bigly.aif in Resources */,
+				D7780D1F1F7262D500F612B7 /* trump_china.aif in Resources */,
+				D7780D201F7262D500F612B7 /* trump_fake.aif in Resources */,
+				D7780D211F7262D500F612B7 /* trump_great_wall.aif in Resources */,
+				D7780D221F7262D500F612B7 /* trump_sniff.aif in Resources */,
+				D7780D231F7262D500F612B7 /* trump_wrong.aif in Resources */,
+				D7780D241F7262D500F612B7 /* trump_Im_really_smart.aif in Resources */,
+				D7780D251F7262D500F612B7 /* trump_really_rich.aif in Resources */,
+				D7780D261F7262D500F612B7 /* trump_stupid.aif in Resources */,
+				D7780D271F7262D500F612B7 /* trump_yuge.aif in Resources */,
+				D7780D141F7262C800F612B7 /* I_dont_know.aif in Resources */,
+				D7780D151F7262C800F612B7 /* plain_wrong.aif in Resources */,
+				D7780D161F7262C800F612B7 /* reckless.aif in Resources */,
+				D7780D2B1F72CBC300F612B7 /* mccarthy_spicer1.png in Resources */,
+				D7780D171F7262C800F612B7 /* thats_cute.aif in Resources */,
+				D7780D181F7262C800F612B7 /* unbelievable.aif in Resources */,
+				D7780D191F7262C800F612B7 /* anythingfor_you.aif in Resources */,
+				D7780D1A1F7262C800F612B7 /* equal_opp.aif in Resources */,
+				D7780D1B1F7262C800F612B7 /* extreme_vetting.aif in Resources */,
+				D7780D1C1F7262C800F612B7 /* hold_on.aif in Resources */,
+				D7780D131F7262B700F612B7 /* false_reporting.aif in Resources */,
+				D750DF191EDC6FF6001026C7 /* conway_flatout_false.aiff in Resources */,
+				D79989231E315EC200877FAC /* LaunchScreen.storyboard in Resources */,
+				D79989581E31AF5A00877FAC /* Shut_the_hell_up.aif in Resources */,
+				D79989201E315EC200877FAC /* Assets.xcassets in Resources */,
+				D750DF181EDC6FF6001026C7 /* conway_dont_you_say.aiff in Resources */,
+				D79989511E31AF5A00877FAC /* Liar.aif in Resources */,
+				D750DF171EDC6FF6001026C7 /* conway_do_you_think.aiff in Resources */,
+				D79989621E31E16800877FAC /* Wrong_.aif in Resources */,
+				D750DEF71ED67419001026C7 /* vertical_flag.png in Resources */,
+				D799894D1E31AF5A00877FAC /* Crazy_Cookoo.aif in Resources */,
+				D750DEF11ED66C00001026C7 /* sean_spicer.png in Resources */,
+				D7780D2D1F72D36300F612B7 /* trump_nope.png in Resources */,
+				D750DF121EDC6FEB001026C7 /* conway_alternative_fact.aiff in Resources */,
+				D750DF1D1EDC6FFE001026C7 /* conway_overly_dramatic.aiff in Resources */,
+				D799894F1E31AF5A00877FAC /* Got_Ya_Loser.aif in Resources */,
+				D750DF1E1EDC6FFE001026C7 /* conway_quantify.aiff in Resources */,
+				D799894C1E31AF5A00877FAC /* China.aif in Resources */,
+				D7D8A0071E321A1200A307ED /* trump_icon.png in Resources */,
+				D79989531E31AF5A00877FAC /* Next_Question.aif in Resources */,
+				D750DEF51ED66DC7001026C7 /* trump.png in Resources */,
+				D750DEEF1ED66A05001026C7 /* baldwin_trump.png in Resources */,
+				D7D8A0051E31F98E00A307ED /* Trump_chicago.png in Resources */,
+				D799891E1E315EC200877FAC /* Main.storyboard in Resources */,
+				D75B91DA1E3479FC00F829BC /* wrong_2.png in Resources */,
+				D79989591E31AF5A00877FAC /* Thats_Pretty_Funny.aif in Resources */,
+				D79989561E31AF5A00877FAC /* Period_End_of_Story.aif in Resources */,
+				D750DEF91ED756D7001026C7 /* conway1.png in Resources */,
+				D79989641E31E17300877FAC /* Really_.aif in Resources */,
+				D750DF1A1EDC6FF6001026C7 /* conway_I_heard_you.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79989111E315EC200877FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D799891B1E315EC200877FAC /* ViewController.swift in Sources */,
+				D7EDFC571ED4DF1B00806F38 /* SpicerViewController.swift in Sources */,
+				D79989191E315EC200877FAC /* AppDelegate.swift in Sources */,
+				D7EDFC551ED4DEEF00806F38 /* FakeTrumpViewController.swift in Sources */,
+				D7EDFC531ED4CD1700806F38 /* TrumpViewController.swift in Sources */,
+				D750DEE51ED63892001026C7 /* ConwayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D799891C1E315EC200877FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D799891D1E315EC200877FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79989211E315EC200877FAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79989221E315EC200877FAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79989251E315EC200877FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79989261E315EC200877FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79989281E315EC200877FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YX9RXX3EJ4;
+				INFOPLIST_FILE = Trumpinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d9vil.d9vilTrump;
+				PRODUCT_NAME = Trumplogic;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D79989291E315EC200877FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = YX9RXX3EJ4;
+				INFOPLIST_FILE = Trumpinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d9vil.d9vilTrump;
+				PRODUCT_NAME = Trumplogic;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79989101E315EC200877FAC /* Build configuration list for PBXProject "Trumplogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79989251E315EC200877FAC /* Debug */,
+				D79989261E315EC200877FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79989271E315EC200877FAC /* Build configuration list for PBXNativeTarget "Trumplogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79989281E315EC200877FAC /* Debug */,
+				D79989291E315EC200877FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D799890D1E315EC200877FAC /* Project object */;
+}
